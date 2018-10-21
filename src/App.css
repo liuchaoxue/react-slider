@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.App-header {
+  width: 1080px;
+  margin: auto;
+  height: 320px;
+  background: #0d3349;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ul,li{
+  list-style: none;
+}
+
+.slider-item{
+  position: relative;
+  width: 1080px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+}
+
+.wrapper{
+  position: relative;
+  width: 980px;
+  margin: 15px auto;
+  height: 320px;
+  overflow: hidden;
+}
+.sliders{
+  position: absolute;
+  height: 320px;
+}
+.slider{
+  float: left;
+  width: 295px;
+  background: #fff ;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.slider img{
+  width: 170px;
+  height: 297px;
+  box-shadow: 3px 3px 5px #999;
+}
+
+.arrows{
+  position: absolute;
+  top: 50%;
+  height: 20px;
+  width: 100%;
+}
+.arrow{
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  margin-top: -50px;
+  line-height: 100px;
+  text-align: center;
+  color: #825d5b;
+  cursor: pointer;
+}
+
+.arrow:hover{
+  background: #f6f6f1;
+}
+
+.arrow-left{
+  left: 10px;
+}
+.arrow-right{
+  right:10px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.box-price{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.name{
+  color: #825d5b;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.user{
+  text-align: left;
+  color: #afafaf;
+  font-size: 12px;
+}
